@@ -1,0 +1,74 @@
+install prefix            /construction/installe/arm64-v8a
+source path               .
+C compiler                /opt/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-clang
+C library                 bionic
+host C compiler           gcc
+host C library            glibc
+ARCH                      aarch64 (armv8-a)
+big-endian                no
+runtime cpu detection     yes
+NEON enabled              yes
+DOTPROD enabled           yes
+I8MM enabled              yes
+SVE enabled               yes
+SVE2 enabled              yes
+SME enabled               yes
+SME-I16I64 enabled        yes
+SME2 enabled              yes
+debug symbols             no
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    no
+shared                    yes
+network support           no
+threading support         pthreads
+safe bitstream reader     yes
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          no
+makeinfo supports HTML    no
+experimental features     yes
+xmllint enabled           no
+
+External libraries:
+iconv
+
+External libraries providing hardware acceleration:
+
+Libraries:
+avcodec                 avutil                  swresample
+
+Programs:
+
+Enabled decoders:
+aac                     eac3                    pcm_alaw
+ac3                     flac                    pcm_mulaw
+alac                    mlp                     truehd
+dca                     mp3
+
+Enabled encoders:
+
+Enabled hwaccels:
+
+Enabled parsers:
+ac3                     mlp
+
+Enabled demuxers:
+
+Enabled muxers:
+
+Enabled protocols:
+
+Enabled filters:
+
+Enabled bsfs:
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later
+
+WARNING: /opt/ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android29-pkg-config not found, library detection may fail.

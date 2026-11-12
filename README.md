@@ -168,6 +168,9 @@ capture montrant une adresse qui contient `jeton=`, ni le contenu de `nyx.env` :
 
 ## Licences
 
+- L'application Android embarque **FFmpeg 8.1.3** sous LGPL 2.1, en bibliothèques remplaçables :
+  sa source complète, sa recette et comment le reconstruire sont dans
+  [`ffmpeg-android/`](ffmpeg-android).
 - L'installeur Windows embarque une copie non modifiée de **mpv**, logiciel libre sous licence
   GPL version 2 ou ultérieure. Ses sources : <https://github.com/mpv-player/mpv>, et la
   construction Windows utilisée : <https://github.com/shinchiro/mpv-winbuild-cmake>. La version
